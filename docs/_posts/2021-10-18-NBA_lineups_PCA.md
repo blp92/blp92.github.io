@@ -1,14 +1,15 @@
 ---
-title: "NBA lineups statistical analysis"
-categories:
-  - Edge Case
+layout: single
+title:  "NBA Lineups Analysis"
+header:
+  teaser: "unsplash-gallery-image-2-th.jpg"
+categories: 
+  - Jekyll
 tags:
-  - content
-  - NBA
-  - statistics
-  - principal component analysis
-  - markup
----Importing, cleaning, and PCA on NBA lineups
+  - edge case
+---
+
+Importing, cleaning, and running PCA on NBA lineups data
 ================
 
 ## Loading in the libraries
