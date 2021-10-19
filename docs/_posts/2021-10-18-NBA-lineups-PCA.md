@@ -8,8 +8,6 @@ categories:
 tags:
   - edge case
 ---
-
-Importing, cleaning, and running PCA on NBA lineups data
 ================
 
 ## Loading in the libraries
