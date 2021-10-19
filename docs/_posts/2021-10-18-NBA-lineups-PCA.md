@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: posts
 title:  "NBA Lineups Analysis"
 header:
   teaser: "unsplash-gallery-image-2-th.jpg"
