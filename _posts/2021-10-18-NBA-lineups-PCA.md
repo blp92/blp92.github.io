@@ -119,5 +119,5 @@ qplot(c(1:44), (NBA_lineups_20_21_pc$sdev^2/sum(NBA_lineups_20_21_pc$sdev^2))) +
         ylim(0,1)
 ```
 
-<i src="/img/posts/NBA_lineups_PCA_scree_plot.png"></i>
+![image-center](/img/posts/NBA_lineups_PCA_scree_plot.png){: .align-center}
 
