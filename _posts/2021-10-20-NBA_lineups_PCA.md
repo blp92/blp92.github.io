@@ -10,9 +10,9 @@ with the Oakland A’s infamous 2002 roster built with “sabermetrics”.
 There are a myriad of ways in which the further development might
 proceed. Thus far, upbraiding the conception of positions in basketball
 – the modern conception of “positionless” basketball – is one of the
-more salient, along with the understanding of the efficiency of offenses
-built around the three point show considering it’s relatively larger
-expected value (when compared to every shot that is not a
+more salient results, along with the understanding of the efficiency of
+offenses built around the three point show considering it’s relatively
+larger expected value (when compared to every shot that is not a
 dunk/uncontested layup). Within the series, I hope to approach questions
 such as:
 
