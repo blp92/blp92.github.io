@@ -1,7 +1,7 @@
 Importing, cleaning, and PCA on NBA lineups
 ================
 
-# Background of overall project
+## Background of overall project
 
 This is the beginning in a series of NBA related analyses. Over the past
 fifteen years, the world of basketball has caught the wake of the
@@ -26,7 +26,7 @@ such as:
 -   Is the injury prevalence in a season affected more by “net minutes
     within a time window”or “net minutes since season began”?
 
-## Loading in the libraries
+## Loading libraries and importing data
 
 ``` r
 library(tidyverse)
@@ -35,7 +35,7 @@ library(ggplot2)
 ```
 
 Next we need to actually import some data. This is from the nba.com
-lineups stat page \#\# Importing data
+lineups stat page
 
 ``` r
 nba_lineups_test <- fromJSON("~/Documents/Analyses/nba_lineups_response", flatten=F)
@@ -124,7 +124,11 @@ of the samples overall variance. We can see that only the top 11
 principal components account for more than 1% of variation.
 
 We may also plot a simple scree graph to see trends in the explained
-variation as the number of components increases.
+variation as the number of components increases. Note that this is part
+of the investigative stage of the analysis – this graph is merely to
+inform the analyst, not present data. As such, it is not very pretty,
+the process of creating well-constructed plots to convey information
+will come later, once the analyses are finished.
 
 ``` r
 qplot(c(1:44), (NBA_lineups_20_21_pc$sdev^2/sum(NBA_lineups_20_21_pc$sdev^2))) +
