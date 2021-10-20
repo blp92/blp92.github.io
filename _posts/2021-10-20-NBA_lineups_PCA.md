@@ -1,14 +1,30 @@
----
-layout: posts
-title:  "NBA Lineups Analysis"
-header:
-  teaser: "unsplash-gallery-image-2-th.jpg"
-categories: 
-  - Jekyll
-tags:
-  - edge case
----
+Importing, cleaning, and PCA on NBA lineups
 ================
+
+# Background of overall project
+
+This is the beginning in a series of NBA related analyses. Over the past
+fifteen years, the world of basketball has caught the wake of the
+analytical wave that struck baseball in the late nineties, beginning
+with the Oakland A’s infamous 2002 roster built with “sabermetrics”.
+There are a myriad of ways in which the further development might
+proceed. Thus far, upbraiding the conception of positions in basketball
+– the modern conception of “positionless” basketball – is one of the
+more salient, along with the understanding of the efficiency of offenses
+built around the three point show considering it’s relatively larger
+expected value (when compared to every shot that is not a
+dunk/uncontested layup). Within the series, I hope to approach questions
+such as:
+
+-   How many different kinds of lineups (unique lineup types) are there?
+-   How many games/minutes/mpg are necessary to properly estimate the
+    effectiveness of a lineup?
+-   To what degree do individual players’ stats correlate with the stats
+    of lineups they are a part of?
+-   At what thresholds (if any) of “career minutes played” are there
+    discrete jumps in long-term injury incidence?
+-   Is the injury prevalence in a season affected more by “net minutes
+    within a time window”or “net minutes since season began”?
 
 ## Loading in the libraries
 
@@ -33,8 +49,8 @@ NBA_lineups_20_21[,6:49] <- lapply(NBA_lineups_20_21[,6:49], as.numeric)
 
 Now that we have the data into a tibble, we can run a principle
 component analysis. PCA is a method for variable selection. Each
-principle component is a linear combination of the $$n$$ variables in an
-$$m*n$$ matrix. The principle components are created so that each
+principle component is a linear combination of the n variables in an
+m\*n matrix. The principle components are created so that each
 successive principal component accounts for a smaller proportion of the
 explained variance (i.e. PC1 accounts for the most, PC2 the second,
 etc.).
@@ -119,5 +135,8 @@ qplot(c(1:44), (NBA_lineups_20_21_pc$sdev^2/sum(NBA_lineups_20_21_pc$sdev^2))) +
         ylim(0,1)
 ```
 
-![image-center](/img/posts/NBA_lineups_PCA_scree_plot.png){: .align-center}
+![](NBA_lineups_PCA_files/figure-gfm/unnamed-chunk-6-1.png)<!-- -->
 
+This reinforces the fact that after 11 principal components, not much
+more explained variance is accounted for. Thus we may safely use only
+the first 11 principal components in what follows.
