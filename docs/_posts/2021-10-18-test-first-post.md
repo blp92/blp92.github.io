@@ -1,4 +1,5 @@
 ---
+layout: single
 title: "Making a first post"
 categories:
   - NBA
