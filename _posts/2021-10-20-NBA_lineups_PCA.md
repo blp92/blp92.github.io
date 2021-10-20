@@ -49,11 +49,13 @@ NBA_lineups_20_21[,6:49] <- lapply(NBA_lineups_20_21[,6:49], as.numeric)
 
 Now that we have the data into a tibble, we can run a principle
 component analysis. PCA is a method for variable selection. Each
-principle component is a linear combination of the n variables in an
-m\*n matrix. The principle components are created so that each
-successive principal component accounts for a smaller proportion of the
-explained variance (i.e. PC1 accounts for the most, PC2 the second,
-etc.).
+principle component is a linear combination of the
+*n*
+variables in an
+*m* \* *n*
+matrix. The principle components are created so that each successive
+principal component accounts for a smaller proportion of the explained
+variance (i.e. PC1 accounts for the most, PC2 the second, etc.).
 
 ## Running the PCA
 
