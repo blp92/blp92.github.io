@@ -58,4 +58,4 @@ straightforward. Note there are both regions and countries, and multiple
 different asset types as expected.
 
 ![a preview of the data in
-libreCalc](https://github.com/blp92/blp92.github.io/blob/master/img/posts/multiplex_financial_markets/BIS_data_csv_preview.gif)
+libreCalc](img/posts/multiplex_financial_markets/BIS_data_csv_preview.gif)
