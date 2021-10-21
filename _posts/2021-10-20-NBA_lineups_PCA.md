@@ -1,4 +1,16 @@
-Importing, cleaning, and PCA on NBA lineups
+---
+layout: single
+title: "NBA lineups Analysis"
+categories:
+  - NBA
+tags:
+  - content
+  - NBA
+  - statistical analysis
+  - principal component analysis
+  - markup
+---
+
 ================
 
 ## Background of overall project
