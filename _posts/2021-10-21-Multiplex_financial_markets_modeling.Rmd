@@ -23,6 +23,6 @@ The paper uses "annual data from the IMF Coordinated Portfolio Investment Survey
 
 Following the reference at the end of the BIS data quote from above we are taken to [a BIS statistics page](https://www.bis.org/statistics/rppb1807.htm), a page containing international banking statistics. If you are interested in other BIS datasets, they have a consolidated link [found here](https://www.bis.org/statistics/full_data_sets.htm). From the latter page I downloaded the locational banking statistics and extracted the zip to a local datasets directory. Time to open up the CSV and see if there are any formatting peccadilloes to work through before importing into Rstudio. Scanning through, it seems well formatted and straightforward. Note there are both regions and countries, and multiple different asset types as expected.
 
-![a preview of the data in libreCalc](~/Documents/Analyses/minimal-mistakes/img/posts/multiplex_financial_markets/BISI_data_csv_preview.mp4)
+![a preview of the data in libreCalc](https://github.com/blp92/blp92.github.io/blob/master/img/posts/multiplex_financial_markets/BISI_data_csv_preview.mp4)
 
 
