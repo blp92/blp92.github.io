@@ -312,7 +312,7 @@ said, there are no rigid or mathematically sound heuristics for choosing
 the number of principal components to incorporate into a model. Recall
 that the goal here is for a re-dimensionalization, ideally to reduce the
 number of variables from 44 to a handful that explain a large proportion
-of the samples overall variance. We can see that only the top 11
+of the samples overall variance. We can see that only the top 10
 principal components account for more than 1% of variation.
 
 We may also plot a simple scree graph to see trends in the explained
@@ -331,14 +331,9 @@ qplot(c(1:25), (NBA_lineups_20_21_pc$sdev^2/sum(NBA_lineups_20_21_pc$sdev^2))) +
         ylim(0,1)
 ```
 
-![](/img/posts/NBA_lineups_scree_plot.png)<!-- -->
+![](/img/posts/NBA_lineups_scree_plot.png){: .align-center}<!-- -->
 
-This reinforces the fact that after 11 principal components, not much
+This reinforces the fact that after 10 principal components, not much
 more explained variance is accounted for. Thus we may safely use only
-the first 11 principal components in what follows.
+the first 10 principal components in what follows.
 
-![](NBA_lineups_PCA_files/figure-gfm/unnamed-chunk-6-1.png){: .align-center}<!-- -->
-
-This reinforces the fact that after 11 principal components, not much
-more explained variance is accounted for. Thus we may safely use only
-the first 11 principal components in what follows.
