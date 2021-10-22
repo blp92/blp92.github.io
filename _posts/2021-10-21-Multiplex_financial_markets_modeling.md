@@ -1,4 +1,16 @@
-Multiplex network financial models
+---
+layout: single
+title: "Multiplex Network Financial Models"
+categories:
+  - Finance
+tags:
+  - content
+  - Finance
+  - statistical analysis
+  - network dynamics
+  - graph theory
+  - markup
+---
 ================
 Brendan Lidral-Porter
 10/21/2021
