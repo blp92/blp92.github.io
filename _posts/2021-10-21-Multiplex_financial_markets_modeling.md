@@ -11,10 +11,8 @@ tags:
   - graph theory
   - markup
 ---
-
+Multiplex Financial Models
 ================
-Brendan Lidral-Porter
-10/21/2021
 
 # Background
 
