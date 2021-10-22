@@ -337,7 +337,7 @@ This reinforces the fact that after 11 principal components, not much
 more explained variance is accounted for. Thus we may safely use only
 the first 11 principal components in what follows.
 
-![](NBA_lineups_PCA_files/figure-gfm/unnamed-chunk-6-1.png)<!-- -->
+![](NBA_lineups_PCA_files/figure-gfm/unnamed-chunk-6-1.png){: .align-center}<!-- -->
 
 This reinforces the fact that after 11 principal components, not much
 more explained variance is accounted for. Thus we may safely use only
